@@ -1,1 +1,1 @@
-33e7520:Add coverage directory to .gitignore
+0fa1edf:Merge "Fix fdb_open fail in custom_compare_variable_test()"
