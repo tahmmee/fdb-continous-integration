@@ -1,3 +1,4 @@
+pushd .
 git config --global github.token $TOKEN
 
 # build ubuntu
@@ -14,7 +15,7 @@ make all
 make test_coverage
 
 # push coverage
-cd $DRONE_BUILD_DIR
+popd
 git clone https://$TOKEN@github.com/tahmmee/fdbcov.git    
 cp -r forestdb/coverage/* fdbcov/
 cd fdbcov
@@ -27,7 +28,7 @@ if ! git diff-index --quiet HEAD --; then
 fi
 
 # update ci status
-cd $DRONE_BUILD_DIR
+cd ../
 echo $COMMIT_MSG > status
 
 if ! git diff-index --quiet HEAD --; then
