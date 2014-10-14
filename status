@@ -1,1 +1,1 @@
-0fa1edf:Merge "Fix fdb_open fail in custom_compare_variable_test()"
+b36b0f1:MB-12339 Make FDB_MAX_KEYLEN, FDB_MAX_METALEN, FDB_MAX_BODYLEN public
