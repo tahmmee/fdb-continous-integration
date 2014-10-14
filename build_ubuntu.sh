@@ -16,9 +16,9 @@ make test_coverage
 # push coverage
 cd $DRONE_BUILD_DIR
 git clone https://$TOKEN@github.com/tahmmee/fdbcov.git    
-cp forestdb/coverage/*png fdbcov/
-cp forestdb/coverage/*html fdbcov/
+cp -r forestdb/coverage/* fdbcov/
 cd fdbcov
+
 if ! git diff-index --quiet HEAD --; then
   git add .
   git commit -m $COMMIT_MSG
