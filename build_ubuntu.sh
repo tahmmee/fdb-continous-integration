@@ -22,7 +22,7 @@ cd fdbcov
 
 if ! git diff-index --quiet HEAD --; then
   git add .
-  git commit -m $COMMIT_MSG
+  git commit -m "$COMMIT_MSG"
   git status
   git push
 fi
@@ -35,7 +35,7 @@ if ! git diff-index --quiet HEAD --; then
 
   git remote add https https://$TOKEN@github.com/tahmmee/fdb-continous-integration.git
   git add status
-  git commit -m $COMMIT_MSG
+  git commit -m "$COMMIT_MSG"
   git push https master
 fi
 
