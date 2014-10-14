@@ -12,7 +12,6 @@ make all
 
 # run tests
 make test_coverage
-tar -cf coverage.tar ../coverage
 
 # push coverage
 cd $DRONE_BUILD_DIR
