@@ -19,7 +19,7 @@ popd
 git clone https://$TOKEN@github.com/tahmmee/fdbcov.git    
 cd fdbcov
 git checkout gh-pages
-cp -r ../forestdb/coverage/* fdbcov/
+cp -r ../forestdb/coverage/* .
 
 if ! git diff-index --quiet HEAD --; then
   git add .
