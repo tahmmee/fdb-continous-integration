@@ -24,7 +24,7 @@ if ! git diff-index --quiet HEAD --; then
   git add .
   git commit -m $COMMIT_MSG
   git status
-  git push
+  git push origin gh-pages
 fi
 
 # update ci status
