@@ -17,8 +17,9 @@ make test_coverage
 # push coverage
 popd
 git clone https://$TOKEN@github.com/tahmmee/fdbcov.git    
-cp -r forestdb/coverage/* fdbcov/
 cd fdbcov
+git checkout gh-pages
+cp -r ../forestdb/coverage/* fdbcov/
 
 if ! git diff-index --quiet HEAD --; then
   git add .
