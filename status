@@ -1,1 +1,1 @@
-a11d624:Add the backward seek support comment to fdb_iterator_seek API.
+59f32e5:Initialize rollback_done flag to zero at the beginning of each test
