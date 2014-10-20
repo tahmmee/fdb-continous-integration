@@ -1,1 +1,1 @@
-9b149a0:Use mutex instead of spinlock for synchronizing a file manager.
+a11d624:Add the backward seek support comment to fdb_iterator_seek API.
