@@ -1,1 +1,1 @@
-59f32e5:Initialize rollback_done flag to zero at the beginning of each test
+9edc7cd:additional str_kv_tests with kv ops
