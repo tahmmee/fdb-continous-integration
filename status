@@ -1,1 +1,1 @@
-e0e96e2:Fix memory leak in filemgr_ops_linux
+e59da2e:MB-12460 Correct the doc comments on fdb_iterator_seek API.
