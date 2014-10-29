@@ -1,1 +1,1 @@
-e59da2e:MB-12460 Correct the doc comments on fdb_iterator_seek API.
+485d6d2:MB-12485 Add endian definitions for Android
