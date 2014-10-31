@@ -1,1 +1,1 @@
-98c0355:Merge "added tests: kv_copy_var op"
+500aa02:Revert "Enable wal_flush_before_commit by default."
