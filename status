@@ -1,1 +1,1 @@
-500aa02:Revert "Enable wal_flush_before_commit by default."
+73deca4:Fix compilation error for C++11
