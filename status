@@ -1,1 +1,1 @@
-73deca4:Fix compilation error for C++11
+2fe34a0:MB-12530: Don't restore WAL items After rollback point
