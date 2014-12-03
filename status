@@ -1,1 +1,1 @@
-b22b7f0:multi-thread kvs cient test
+a63916f:MB-12823 Remove _fdb_free_iterator function that is not reachable.
