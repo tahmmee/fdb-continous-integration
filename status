@@ -1,1 +1,1 @@
-3401495:Fix memory leak in multi_kv_close_test
+35da8ea:MB-12894 Remove FDB_ITR_METAONLY flag from the iterator options.
