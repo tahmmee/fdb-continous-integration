@@ -1,1 +1,1 @@
-56f1f4b:MB-12854: Support cloning of in-memory snapshots
+3e19431:Fix a segfault due to freed shandle
