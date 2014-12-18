@@ -1,1 +1,1 @@
-3e19431:Fix a segfault due to freed shandle
+136d85f:MB-12961 fix bugs in sequence iteration with snapshots
