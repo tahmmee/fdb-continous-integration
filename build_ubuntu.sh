@@ -1,8 +1,14 @@
 pushd .
 git config --global github.token $TOKEN
 
+#lcov
+git clone https://github.com/linux-test-project/lcov.git
+cd lcov
+sudo make install
+cd ..
+
 # build ubuntu
-sudo apt-get install libsnappy-dev lcov ggcov
+sudo apt-get install libsnappy-dev ggcov
 git clone https://github.com/couchbaselabs/forestdb
 cd forestdb
 COMMIT_MSG=`git log -1 HEAD --pretty=format:%h:%s`
