@@ -1,1 +1,1 @@
-d84b5cb:MB-12978: fix crash in fdb_get_* from snapshot on multiple kv stores
+ac6f503:Fix a bug that DB stats of old file become zero during compaction
