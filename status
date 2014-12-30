@@ -1,1 +1,1 @@
-ac6f503:Fix a bug that DB stats of old file become zero during compaction
+581f01f:Disallow snapshot_open with uncommitted sequence numbers
