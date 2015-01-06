@@ -1,1 +1,1 @@
-581f01f:Disallow snapshot_open with uncommitted sequence numbers
+3c6d74b:MB-12612: handle read failures, CRC failures
