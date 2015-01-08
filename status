@@ -1,1 +1,1 @@
-2e0e033:fdb- test create then deleting doc subset
+4b739a9:MB-13057 Do not rollback HB+trie if root node doesn't exist
