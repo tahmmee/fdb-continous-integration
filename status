@@ -1,1 +1,1 @@
-4b739a9:MB-13057 Do not rollback HB+trie if root node doesn't exist
+9934770:Use user's memory segments for doc's meta & body
